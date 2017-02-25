@@ -1,0 +1,33 @@
+{
+  "name": "badge",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Martin Curlej <mcurlej@redhat.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --progress --hide-modules",
+    "electron": "electron ./electron.js"
+  },
+  "dependencies": {
+    "irc": "^0.5.2",
+    "jquery": "^3.1.1",
+    "patternfly": "^3.21.0",
+    "socket.io": "^1.7.3",
+    "vue": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "css-loader": "^0.25.0",
+    "electron": "^1.4.15",
+    "electron-builder": "^14.1.1",
+    "electron-packager": "^8.5.2",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
